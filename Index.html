@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile card</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <div class="card-image">
+      <img src="./images.jpg" alt="">
+      </div>
+       <div class="profile-image">
+        <img  src="./profile.jpg" data-testid="profilePicture">
+       </div>
+       <div class="card-content">
+        <h1  data-testid="fullName">Anyebe Peter</h1>
+        <h3 data-testid="jobTitle" style="color: darkgrey;">Front-End Engineer</h3>
+        <p data-testid="shortBio"> Front-End Engineer with 3 years of experience in designing and developing user-friendly interfaces. Passionate about creating intuitive and responsive web experiences, I excel in leveraging modern web technologies to bring ideas to life. With a strong focus on user experience, i'm always looking for innovative solutions to enhance the digital world.</p>
+        <p data-testid="emailAddress"> Email: Lexypeter000@gmail.com</p>
+        
+        <p data-testid="currentLocation">Abuja - Nigeria<span></span></p>
+        <p data-testid="currentTimeUTC" class="time">
+        </p>
+       </div>
+       
+       <div class="icons" id="socialLinks" data-testid="socialLinks">
+        
+        <a href="https://www.linkedin.com/in/peter-anyebe-312413241/" class="fab fa-linkedin"  id="linkedin" data-testid="socialLinks"></a>
+        <a href="https://x.com/adriancatheria " data-testid="socialLinks" class="fab fa-x" id="x"></a>
+        <a href="https://wa.link/lre677" data-testid="socialLinks" class="fab fa-whatsapp" id="whatsapp"></a>
+    
+       </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html> 
